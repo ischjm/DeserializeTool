@@ -40,7 +40,7 @@ public class MainClass {
 
     private static void usage() throws InterruptedException {
         System.out.println(Colorful.format(MenuConstant.BANNER, FontColor.PURPLE));
-        Thread.sleep(5);
-        System.err.println(MenuConstant.USAGE_WITH_COLOR);
+        Thread.sleep(5); // 防止打印顺序错误。
+        System.out.println(MenuConstant.FULL_USAGE);
     }
 }

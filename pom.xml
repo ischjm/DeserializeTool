@@ -13,6 +13,13 @@
         <maven.compiler.target>8</maven.compiler.target>
     </properties>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.pwddd.colorful</groupId>
+            <artifactId>colorful</artifactId>
+            <version>1.0</version>
+        </dependency>
+    </dependencies>
 
     <build>
         <plugins>
